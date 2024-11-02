@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+  }
+   *{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: white;
+    font-family: 'Roboto',sans-serif;
+}
+main{
+    display: flex;  /*confirm display:flex function*/
+    align-items: center; /*doubt*/
+    justify-content: center; /*all elements of the page to center*/
+    gap: 50px;  /*doubt,youtubed*/
+    min-height: 100vh;
+    margin: auto;
+}
+.form-div{
+    display:flex;
+    flex-direction: column;
+}
+.form-div form .instaLogo{
+    width: 200px;
+    margin: 20px;  /*margin:20px 0; youtube,margin two dimensions why?*/
+}
+.form-div form{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 2vw; 
+    border: 1px solid rgba(128,128,128,0.3);  /*color grad youtube*/
+    margin-top: 10px;
+}
+
+.input{
+    width:90%; /*dabba ka width*/
+    padding: .6rem;
+    border-radius:8px;
+    border: 1px solid rgba(128,128,128,.3);
+    margin: 3px;
+}
+.login-btn{
+    width:97%;
+    padding: .4rem;
+    font-weight: 700;
+    background-color: rgb(1,183,255);
+    border: none; /*so that doesn't give black border*/
+    border-radius: 8px;
+    margin: 8px;
+    color:white;
+}
+#or{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+     
+}
+/* #or:before, 
+#or::after{
+    content:"-------------";
+    color: rgba(128,128,128,.7);
+    margin: 0 10px;  
+} */ 
+.scan-login{
+    
+    font-weight: 600;
+    font-size: 75%;
+    color:green;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.fb-login{
+    font-weight: 700;
+    font-size: 80%;
+    color: blue;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.new-account{
+    text-align: center;
+    font-weight: 700;
+    font-size: 80%;
+    color: rgb(0, 179, 255);
+    border: 1px solid rgba(128,128,128, .3);
+    padding: 20px;
+    margin:10px;
+}
+.get-app{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.store{  /*.store overall includes 'get it on gplay' and 'microsoft', thus overall orders for the two*/
+    display: flex;
+    align-items: center;
+}
+#play{
+    width: 190px;
+}
+#microsoft{
+    width:135px;
+    border-radius:8px; /*to get curve*/
+}
